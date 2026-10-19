@@ -12,8 +12,8 @@ from pyrogram.types import *
 TIMEZONE = "Asia/Kolkata"
 
 main_buttons = [[
-        InlineKeyboardButton('🦋 ᴜᴘᴅᴀᴛᴇs ', url='https://t.me/jisshubots'),
-        InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/Jisshu_support')
+        InlineKeyboardButton('🦋 ᴜᴘᴅᴀᴛᴇs ', url='https://t.me/Ajay_Flix_Hub'),
+        InlineKeyboardButton(' sᴜᴘᴘᴏʀᴛ ✨', url='https://t.me/+51tKt2LkwF9hN2U1')
         ],[
         InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton(' ᴀʙᴏᴜᴛ 😎', callback_data='about')
@@ -134,7 +134,7 @@ async def back(bot, query):
 async def about(bot, query):
     await query.message.edit_media(
         media=InputMediaPhoto(
-        media="https://graph.org/file/e223aea8aca83e99162bb.jpg",
+        media="https://ibb.co/rGVY9VWs",
         caption=Translation.ABOUT_TXT),
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⛔ Back', callback_data='back')]])
         )
